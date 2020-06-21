@@ -27,13 +27,24 @@ h2{
 	right: 0px;
 	font-size: 125%;
 	border: 1px solid black;
-	background-color: pink;
 	margin: 0px;
 	padding: 10px;
 }
 
+#col1{
+	background-color: #cc99ff;
+}
+
+#col2{
+	background-color: #ff6666;
+}
+
+#col3{
+	background-color: #00ff99;
+}
+
 p{
-	margin-top: 40px;
+	margin-top: 50px ;
 }
 
 @media(min-width: 992px){
@@ -44,7 +55,7 @@ p{
 }
 
 @media(min-width: 768px) and (max-width: 991px){
-	div div section:nth-child(3){
+	div div:nth-child(3){
 		width:100%;
 	}
 	.col-md-6{
