@@ -1,0 +1,62 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: gray;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: yellow;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: auto;
+}
+
+.navbar-brand h1 {
+  font-family: Arial, serif;
+  color: red;
+  font-size: 2em;
+  margin-top: auto;
+  font-weight: bold;  
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: white;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+h2{
+  color: #000066;
+  font-style: italic;
+}
+.row
+{
+  background-color: pink;
+  color: black;
+}
